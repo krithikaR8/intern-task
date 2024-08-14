@@ -1,0 +1,107 @@
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 97%;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+   
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color:#107AB0 ;
+    color: white;
+  }
+  .addbut{
+   width:5%;
+   margin-left: 1300px;
+   height: 35px;
+   background-color: #107AB0;
+   color: white;
+   border-radius: 5px;
+  
+  }
+  .edit{
+    color:#107AB0;
+    width: 20px;
+    height: 20px;
+  }
+  .delete{
+    color:#107AB0;
+    width: 20px;
+    height: 20px;
+  }
+.searchinp{
+  width: auto;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+table {
+  display: block;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+table tbody {
+  display: table;
+  width: 100%;
+}
+
+
+
+
+
+
+
+.pagination {
+  display: flex;
+  list-style: none;
+  outline: none;
+  border-radius: 5px;
+  margin-left: 680px;
+}
+.pagination > li > a,
+.pagination > li > span {
+  color: white;
+  border-radius: 5px;
+  float:right;
+}
+.pagination > li:first-child > a,
+.pagination > li:first-child > span,
+.pagination > li:last-child > a,
+.pagination > li:last-child > span {
+  border-radius: 5px;
+  float:right;
+}
+.pagination > .active1 > a,
+.pagination > .active1 > span,
+.pagination > .active1 > a:hover,
+.pagination > .active1 > span:hover,
+.pagination > .active1 > a:focus,
+.pagination > .active1 > span:focus {
+  background-color: #009CB8;
+  /* border-color: red; */
+  color: #009CB8;
+  border-radius: 5px;
+  float:right;
+}
+.pagination > li > a {
+  border: 2px solid #041C3C;
+  background-color: white;
+  float:right;
+  padding: 4px 8px;
+  color:#009CB8;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+}

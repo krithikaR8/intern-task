@@ -1,0 +1,11 @@
+
+h1 {
+    color: #107AB0; /* Sets the text color */
+    font-size: 36px; /* Adjusts the font size */
+    font-weight: bold; /* Makes the text bold */
+    text-align: center; /* Centers the text */
+    margin-top: 20px; /* Adds some space at the top */
+    margin-bottom: 20px; /* Adds some space at the bottom */
+    letter-spacing: 1px; /* Adds some spacing between letters */
+    text-transform: uppercase; /* Makes the text uppercase */
+}

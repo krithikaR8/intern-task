@@ -1,0 +1,23 @@
+.ReactTable {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.ReactTable th,
+.ReactTable td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.ReactTable tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.ReactTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #4CAF50;
+    color: white;
+}
